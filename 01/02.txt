@@ -1,0 +1,21 @@
+Exercise:
+
+What's overfitting and how do we avoid it? (chapter 01 - exercise 02)
+
+Answer:
+
+Overfitting is a common challenge in machine learning where a model fits too closely to the training data and fails to generalize well to new, unseen data. This means that the model has learned the training data too well and may not be accurate when applied to new data.
+
+Overfitting occurs when a model is too complex relative to the amount of available training data. Models with high complexity are prone to overfitting because they can easily memorize the training data instead of learning general patterns and relationships in the data. Overfitting can also occur when noise or outliers in the training data are given too much importance by the model.
+
+To avoid overfitting, there are several techniques that can be used:
+
+1.Using more data: One of the most effective ways to reduce overfitting is to increase the amount of available training data. More data can help the model learn more generalized patterns, reducing the risk of overfitting.
+
+2.Simplifying the model: Another way to reduce overfitting is to simplify the model by reducing the number of features or parameters. This can be done through regularization techniques such as L1 or L2 regularization which add a penalty term to the loss function of the model.
+
+3.Cross-validation: Cross-validation is a technique for evaluating the performance of a model on a set of validation data. By using cross-validation, we can determine whether our model is overfitting to the training data or if it is able to generalize well to new, unseen data.
+
+4.Early stopping: Early stopping is a technique where the training of the model is stopped before it converges completely. This approach helps to prevent the model from memorizing the training data by stopping it at the point where it achieves the best performance on the validation data.
+
+By employing these methods, we can reduce the risk of overfitting and create machine learning models that perform well on new, unseen data.
