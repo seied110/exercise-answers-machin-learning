@@ -1,0 +1,15 @@
+Exercise:
+
+Name two ways to combine multiple models. (chapter 01 - exercise 04)
+
+Answer:
+
+Ensembling is a popular technique to combine multiple models to improve the accuracy, robustness, and generalization of machine learning models. Here are two common ways to combine multiple models:
+
+Bagging (Bootstrap Aggregating): Bagging is a technique where multiple instances of the same model are trained on different subsets of the training data. The predictions of each individual model are then combined by taking a weighted average or majority voting to produce the final prediction. This technique can reduce the variance of the model by using an ensemble of independently trained models.
+
+Boosting: Boosting is a technique where multiple weak learners are combined in a sequential manner to create a strong learner. At each iteration, the algorithm trains a new model on the training data, assigning higher weights to the samples that were misclassified in the previous iterations. The final prediction is based on a weighted sum of the predictions of all the models in the ensemble. Boosting can improve the accuracy of the model by focusing on the hard-to-classify samples in the training data.
+
+Other techniques for combining multiple models include Stacking (meta-ensemble), where the predictions of multiple base models are used as input features to train a meta-model, and Blending, where multiple models are trained on different subsets of the training data and their predictions are combined using a hold-out validation set.
+
+The goal of these techniques is to create a more powerful ensemble model with better accuracy and generalization performance than any of the individual models alone.
