@@ -1,0 +1,13 @@
+Exercise:
+
+Can you tell the difference between machine learning and traditional programming (rule-based automation)?(chapter 01 - exercise 01)
+
+Answer:
+
+In traditional programming (rule-based automation), developers create a set of rules or instructions that explicitly define how the program should behave for different input scenarios. These rules are typically based on human expertise and knowledge of the problem domain.
+
+On the other hand, in machine learning, the program learns from data rather than being explicitly programmed with rules. The machine learning algorithm is trained on a dataset to recognize patterns and relationships between the input features and the output variable. Once the model is trained, it can make predictions on new, unseen data.
+
+The key difference between traditional programming and machine learning is that traditional programming requires human experts to define the rules, while in machine learning the algorithm learns the rules automatically from data. This allows machine learning models to adapt to changing conditions and new data without requiring explicit updates to the rules by human experts.
+
+Another important distinction is that traditional programming is typically better suited for solving problems that have well-defined rules and clear decision-making processes, while machine learning is more appropriate for complex tasks that involve large amounts of data and patterns that may not be immediately apparent to human experts.
