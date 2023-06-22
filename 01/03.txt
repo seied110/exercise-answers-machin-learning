@@ -1,0 +1,13 @@
+Exercise:
+
+Name two feature engineering approaches.(chapter 01 - exercise 03)
+
+Answer:
+
+Feature engineering is the process of selecting, transforming, and creating features from raw data to improve the performance of machine learning models. Here are two common feature engineering approaches:
+
+Feature scaling: Feature scaling is a technique where the values of different features in the dataset are scaled to a similar range. This is important because machine learning algorithms can be sensitive to the scale of the input features, and features with larger scales can dominate the performance of the algorithm. Common methods for scaling include normalization and standardization.
+
+Feature selection: Feature selection is the process of selecting a subset of relevant features from the available set of features. This is important for improving the performance of machine learning models because irrelevant or redundant features can lead to overfitting or reduced accuracy. Common methods for feature selection include filter methods (e.g., correlation-based feature selection), wrapper methods (e.g., recursive feature elimination), and embedded methods (e.g., LASSO regularization).
+
+Other examples of feature engineering techniques include creating new features by combining existing ones, handling missing values, and encoding categorical variables as numerical values through one-hot encoding or label encoding. The goal of all these techniques is to create a dataset that is well-suited to the specific machine learning algorithm being used, allowing it to learn meaningful patterns and relationships between the input features and the output variable.
